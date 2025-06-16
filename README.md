@@ -20,3 +20,15 @@ A simple, Python-based CLI tool to track and export personal expenses. Built wit
 git clone https://github.com/Sandeepchow222/expense-tracker-cli.git
 cd expense-tracker-cli
 pip install -r requirements.txt
+# Add an expense
+python app.py add 100 food --note "Lunch"
+
+# List all expenses
+python app.py list-all
+
+# Export to CSV
+python app.py export --file report.csv
+ Run Tests
+bash
+Copy
+Edit
